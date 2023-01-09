@@ -48,3 +48,23 @@ Continue evolving the previously created flask app:
 * Trigger the notification by:
 * * Pushing a button on your webpage
 * * Setting up a notification when a trigger temperature is reached
+
+
+# Python practicum 2022, 4th task
+Continue evolving the previously created flask app:
+
+✅ Record each weather search in the log file
+* Log: Date, Time, City, Temperature
+
+✅ Create a route /log to display data for the last 5 searches
+* Think about persistent data. The last 5 searches must be displayed even after flask is restarted
+
+✅ Create a route /cities
+* Display the current list of cities of interest and their current temperature (updates on list change)
+* Let the user add the city to the list
+* Let the user change list entry (change city name)
+* Let the user delete the city from the list
+* Record add/change/delete events to log file
+* Let the user manually refresh the currently listed cities’ temperature data.
+* The current list and temperature must persist after the flask is restarted
+* Optional advanced task: implement this for multiple users (identified by login)
